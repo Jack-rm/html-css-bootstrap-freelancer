@@ -1,0 +1,9 @@
+
+[class^="col-"]{
+    background-color: turquoise;
+    border: 1px solid black;
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
