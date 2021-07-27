@@ -1,7 +1,14 @@
-
 [class^="col-"]{
     min-height: 50px;
     text-align: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .fullpage_wrapper {
@@ -9,9 +16,6 @@
 }
 
 .filler_box{
-    background-color: rebeccapurple;
-    border: 2px solid white;
-    border-radius: 10px;
     height: 300px;
 }
 
@@ -38,6 +42,20 @@
     background-position: center;
 }
 
+.b_white{
+    border-color: white;
+    background-color: #1abc9c;
+}
+
+.form-control{
+    border: none;
+    box-shadow: none;
+}
+
+.green{
+    color: #1abc9c;
+}
+
 #portfolio .line {
     background-color: black;
 }
@@ -46,27 +64,16 @@
     background-color: black;
 }
 
-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-
-.b_white{
-    border-color: white;
-    background-color: #1abc9c;
-}
-
-.form-control{
-    border: none;
-}
-
 #about_footer{
     background-color: #3a546d;
 }
 
-.green{
-    color: #1abc9c;
+.btn-primary:hover{
+    background-color: #43ffd9;
+    border-color: #43ffd9;
+}
+
+.btn-outline-success:hover{
+    background-color: #43ffd9;
+    border-color: rgb(255, 255, 255);
 }
