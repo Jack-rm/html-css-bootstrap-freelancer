@@ -1,6 +1,6 @@
 
 [class^="col-"]{
-    min-height: 60px;
+    min-height: 50px;
     text-align: center;
 }
 
@@ -10,8 +10,9 @@
 
 .filler_box{
     background-color: rebeccapurple;
-    border: 2px solid black;
-    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 300px;
 }
 
 .filler_jumbo{
@@ -33,7 +34,7 @@
 .line{
     height: 4px;
     background-color: white;
-    width: 30%;
+    width: 120px;
     border-bottom: 1px solid white;
     border-radius: 40px;
 }
@@ -49,6 +50,23 @@
     background-color: black;
 }
 
-#portfolio i{
-    color: black;
+#contact-us .line{
+    background-color: black;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.b_white{
+    border-color: white;
+    background-color: #1abc9c;
+}
+
+.form-control{
+    border: none;
 }
