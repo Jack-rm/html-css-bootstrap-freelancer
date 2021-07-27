@@ -1,13 +1,20 @@
 
 [class^="col-"]{
-    background-color: turquoise;
-    border: 1px solid black;
     min-height: 100px;
     line-height: 100px;
     text-align: center;
 }
 
-.prova{
-    line-height: 30px;
-    text-align: left;
+.fullpage_wrapper {
+    background-color: powderblue;
+}
+
+.filler_box{
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    height: 250px;
+}
+
+.filler_jumbo{
+    height: 300px;
 }
